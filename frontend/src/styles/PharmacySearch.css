@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+.pharmacy-search {
+    font-family: "Poppins", sans-serif;
+    margin: 140px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.pharmacy-search h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #f3f3f3;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+}
+
+.search-box input {
+    flex: 1;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    color: #333;
+}
+
+.search-box input::placeholder {
+    color: #888;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #007bff;
+    margin-right: 10px;
+}
+
+/* Search Button */
+.pharmacy-search button {
+    padding: 12px 18px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.pharmacy-search button:hover {
+    background: linear-gradient(45deg, #0056b3, #003f7f);
+    transform: scale(1.05);
+}
+
+/* Results Section */
+.pharmacy-results {
+    margin-top: 20px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.pharmacy-results h3 {
+    font-size: 20px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.pharmacy-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pharmacy-results ul li {
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pharmacy-results ul li:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pharmacy-results ul li strong {
+    color: #333;
+    flex: 1;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

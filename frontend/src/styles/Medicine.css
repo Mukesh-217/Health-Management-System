@@ -1,0 +1,141 @@
+/* Medicine Page Styling */
+.medicine-container {
+  max-width: 1200px;
+  margin: 80px auto 20px; /* Added margin from top to separate from navbar */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Search Bar */
+.search-bar {
+  width: 60%;
+  max-width: 500px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #3498db;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  text-align: center;
+}
+
+/* Medicine List */
+.medicine-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+/* Medicine Card */
+.medicine-card {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  width: 100%;
+  max-width: 280px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.medicine-card:hover {
+  transform: scale(1.05);
+}
+
+.medicine-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #7f8c8d;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #219150;
+}
+
+
+.sort-buttons {
+  margin: 15px 0;
+}
+
+.sort-buttons button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.medicine-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.medicine-card {
+  width: 250px;
+  padding: 15px;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.medicine-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.add-to-cart-btn {
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,63 @@
+.appointment-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f4f6; /* Light Grey Background */
+    padding-top: 100px; /* Push it below the navbar */
+    padding-bottom: 50px; /* Extra space above footer */
+  }
+  
+  .appointment-card {
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .appointment-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+  }
+  
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .appointment-table th,
+  .appointment-table td {
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .appointment-table th {
+    background-color: #e5e7eb;
+    color: black;
+  }
+  
+  .appointment-status-accepted {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .appointment-status-rejected {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .appointment-status-pending {
+    color: orange;
+    font-weight: bold;
+  }
+  
