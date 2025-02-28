@@ -17,6 +17,12 @@ This project is built using the **MERN (MongoDB, Express, React, Node.js) stack*
 - Doctors can manage schedules and notify patients via **email**.
 - Admins can **approve or reject** appointment requests.
 - Appointment status updates and email notifications.
+- <img width="1461" alt="image" src="https://github.com/user-attachments/assets/01791854-e6d2-405f-b528-f777f057d09d" />
+
+- <img width="1461" alt="image" src="https://github.com/user-attachments/assets/dfe0c111-d68c-40a6-b00c-413a82087cb6" />
+- <img width="1461" alt="image" src="https://github.com/user-attachments/assets/9981a0ba-b67a-42d9-aa3a-51f64e4e87e7" />
+- <img width="1461" alt="image" src="https://github.com/user-attachments/assets/b0db0036-b805-4d15-b38d-939e582b93db" />
+
 
 ### 3. Pharmacy & Hospital Search
 - Users can search for nearby **hospitals and pharmacies** using **Google Maps API**.
@@ -34,11 +40,15 @@ This project is built using the **MERN (MongoDB, Express, React, Node.js) stack*
 - Manage **users, doctors, and appointment logs**.
 - View **patient feedback** and monitor system activity.
 - Add new **doctors and admins** to the system.
+<img width="1461" alt="image" src="https://github.com/user-attachments/assets/20404c2b-3969-40ba-9dc8-c2d3d2d640cf" />
+
 
 ### 7. Doctor Dashboard
 - View and manage **appointments**.
 - Notify patients via **email** about **appointment time and meeting link**.
 - Track patient **medical records**.
+- <img width="1461" alt="image" src="https://github.com/user-attachments/assets/bc9b60a3-6125-4de4-86d5-a499efba9df9" />
+
 
 ---
 ## System Architecture
@@ -104,6 +114,7 @@ The system follows a **client-server architecture**:
 - **Users & Doctors List**: View all registered users and doctors.
 - **Update Appointment Status**: Approve or reject appointments.
 - **Logout**: Secure exit.
+- 
 
 ### **3. Doctor**
 #### Features:
